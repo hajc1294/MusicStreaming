@@ -55,17 +55,13 @@ class PlayerViewModel {
     
     func getSongCurrentTime() -> Float {
         let current = player.currentTime().seconds
-        if current.isNaN  {
-            return 0
-        }
-        return Float(current)
+        return current.isNaN ? 0 : Float(current)
     }
     
     func updateSongCurrentTime(position: Float) {
-        if let duration = player.currentItem?.asset.duration {
-            let seekTime = CMTime(value: Int64(position), timescale: 1)
-            player.seek(to: seekTime)
-        }
+        let seekTime = CMTime(value: Int64(position), timescale: 1)
+        player.seek(to: seekTime)
+
     }
     
     func playSong() {
