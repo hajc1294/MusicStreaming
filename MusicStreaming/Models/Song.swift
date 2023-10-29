@@ -13,6 +13,7 @@ struct Song {
     var band = ""
     var album = ""
     var year = ""
+    var duration = ""
     var image = ""
     var resource = ""
     var data: Data?

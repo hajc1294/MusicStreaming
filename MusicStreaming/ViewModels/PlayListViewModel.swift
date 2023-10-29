@@ -36,6 +36,7 @@ class PlayListViewModel {
                                         band: document.data()["band"] as! String,
                                         album: document.data()["album"] as! String,
                                         year: document.data()["year"] as! String,
+                                        duration: document.data()["duration"] as! String,
                                         image: document.data()["image"] as! String,
                                         resource: document.data()["resource"] as! String)
                         strongSelf.playList.append(song)

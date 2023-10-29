@@ -183,6 +183,7 @@
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
+                                    <outlet property="songDurationLabel" destination="xcH-Ry-7Ns" id="vci-Nw-BbU"/>
                                     <outlet property="songImageView" destination="MmG-pi-iqS" id="Va2-Eh-9N9"/>
                                     <outlet property="songInfoLabel" destination="HP7-Mb-jjW" id="q09-BW-l0Z"/>
                                     <outlet property="songNameLabel" destination="Lq6-Jg-ch8" id="7cU-LJ-t7T"/>

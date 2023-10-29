@@ -12,6 +12,7 @@ class SongCell: UITableViewCell {
     @IBOutlet weak var songImageView: UIImageView!
     @IBOutlet weak var songNameLabel: UILabel!
     @IBOutlet weak var songInfoLabel: UILabel!
+    @IBOutlet weak var songDurationLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,6 +22,7 @@ class SongCell: UITableViewCell {
     func setUp(song: Song) {
         songNameLabel.text = song.name
         songInfoLabel.text = "\(song.band) • \(song.album)"
+        songDurationLabel.text = song.duration
         retrieveImage(url: song.image)
     }
     
