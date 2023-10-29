@@ -17,17 +17,59 @@ The structure for playlist data in the database follows the following format (as
 
 ```
 {
-	id: {
-		name (String): name
-		band (String): band
-		album (String): album
-		year (String): year
-		duration (String): duration
-		image (String): image
-		resource (String): resource
-	}
+   id: {
+      name (String): name
+      band (String): band
+      album (String): album
+      year (String): year
+      duration (String): duration
+      image (String): image
+      resource (String): resource
+   }
 }
 ```
 
 The fields **'image'** and **'resource'** refer to **Firebase Storage** URLs; the first one for downloading the image and the second one for playing the song.
+
+### How to set up?
+
+#### Firebase
+
+To be able to run the project, the following steps are necessary:
+
+- Create a project in **Firebase** and configure it.
+- Add your application to the **Firebase** project.
+- Enable the necessary services (**Firebase Firestore Database** and **Firebase Storage**).
+- Specify the access rules for these services to avoid access denied issues.
+
+If you are using a free plan for the **Firebase** application, keep in mind that downloads to **Firebase Storage** are limited (bandwidth per day).
+
+#### iOS App
+
+All you need to do is add the **GoogleServices-Info.plist** file to the project, which is generated during the **Firebase** configuration stage, and also install the **Firebase SDK** in the project (via **CocoaPods**, **Swift Package Manager**, etc).
+
+Finally, this project uses Swift Package Manager for third-party libraries, and the following ones are used:
+
+- **Firebase SDK**: https://swiftpackageindex.com/firebase/firebase-ios-sdk
+- **RxSwift**: https://swiftpackageindex.com/ReactiveX/RxSwift
+
+#### Screenshots
+
+<img src="https://github.com/hajc1294/MusicStreaming/assets/61942641/434389b3-0a37-42e8-930c-57846f5ede0a" width="250">   <img src="https://github.com/hajc1294/MusicStreaming/assets/61942641/7eee86e3-9fc6-4961-9de6-9f4faed39532" width="250">   <img src="https://github.com/hajc1294/MusicStreaming/assets/61942641/ff2724e4-df37-42ae-9054-b9366dc2bbfb" width="250">
+
+### Documentation
+
+Here some important links that can help you:
+
+- Add **Firebase** to your **Apple project**: https://firebase.google.com/docs/ios/setup
+- **Cocoapods**: https://guides.cocoapods.org/using/getting-started.html
+- **AVPlayer**: https://developer.apple.com/documentation/avfoundation/avplayer/
+
+About the project:
+
+- Credits to activity indicator: https://github.com/erangaeb/dev-notes/blob/master/swift/ViewControllerUtils.swift
+- App logo comes from here: https://www.brandcrowd.com/
+- Soundwave image comes from here: https://es.vecteezy.com/arte-vectorial/7266126-vector-abstracto-con-ondas-sonoras-dinamicas-fondo-musica-espectro-neon-lines-digital-audio-studio-abstract-background
+
+
 
