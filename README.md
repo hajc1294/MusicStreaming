@@ -46,7 +46,7 @@ If you are using a free plan for the **Firebase** application, keep in mind that
 
 #### iOS App
 
-All you need to do is add the **GoogleServices-Info.plist** file to the project, which is generated during the **Firebase** configuration stage, and also install the **Firebase SDK** in the project (via **CocoaPods**, **Swift Package Manager**, etc).
+You need to add the **GoogleServices-Info.plist** file to your project, which is generated during the **Firebase** configuration stage, and also install the **Firebase SDK** in the project (via **CocoaPods**, **Swift Package Manager**, etc).
 
 Finally, this project uses Swift Package Manager for third-party libraries, and the following ones are used:
 
