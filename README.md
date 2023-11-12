@@ -13,7 +13,7 @@ The application connects to Firebase (streaming server), from which it retrieves
 - **Firebase Firestore Database**
 - **Firebase Storage**
 
-The structure for playlist data in the database follows the following format (as can be seen in the source code):
+The structure for playlist data in the database has the following format (as can be seen in the source code):
 
 ```
 {
