@@ -13,7 +13,7 @@ The application connects to Firebase (streaming server), from which it retrieves
 - **Firebase Firestore Database**
 - **Firebase Storage**
 
-The structure for playlist data in the database follows the following format (as can be seen in the source code):
+The structure for playlist data in the database has the following format (as can be seen in the source code):
 
 ```
 {
@@ -46,7 +46,7 @@ If you are using a free plan for the **Firebase** application, keep in mind that
 
 #### iOS App
 
-All you need to do is add the **GoogleServices-Info.plist** file to the project, which is generated during the **Firebase** configuration stage, and also install the **Firebase SDK** in the project (via **CocoaPods**, **Swift Package Manager**, etc).
+You need to add the **GoogleServices-Info.plist** file to your project, which is generated during the **Firebase** configuration stage, and also install the **Firebase SDK** in the project (via **CocoaPods**, **Swift Package Manager**, etc).
 
 Finally, this project uses Swift Package Manager for third-party libraries, and the following ones are used:
 
