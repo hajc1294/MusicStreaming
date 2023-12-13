@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2F44B8E32AEDE717001F54DF /* ActivityIndicatorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F44B8E22AEDE717001F54DF /* ActivityIndicatorUtil.swift */; };
+		2F7A5B192B29FD1300FA8775 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F7A5B182B29FD1300FA8775 /* GoogleService-Info.plist */; };
 		2FCE16502AEB00C2007B3999 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE164F2AEB00C2007B3999 /* SongCell.swift */; };
 		2FCE16522AEB056E007B3999 /* ViewModelStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE16512AEB056E007B3999 /* ViewModelStatus.swift */; };
 		2FCE16592AEB1B3B007B3999 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE16582AEB1B3B007B3999 /* PlayerViewController.swift */; };
@@ -25,7 +26,6 @@
 		2FFBBE5A2AEAE0D10000095A /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2FFBBE592AEAE0D10000095A /* RxSwift */; };
 		2FFBBE9A2AEAE6930000095A /* PlayListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFBBE992AEAE6930000095A /* PlayListViewModel.swift */; };
 		2FFBBE9C2AEAEA8B0000095A /* PlayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFBBE9B2AEAEA8B0000095A /* PlayListViewController.swift */; };
-		2FFBBE9E2AEAF3600000095A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FFBBE9D2AEAF3600000095A /* GoogleService-Info.plist */; };
 		2FFBBEB42AEAF7040000095A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2FFBBEB32AEAF7040000095A /* FirebaseFirestore */; };
 		2FFBBEB62AEAF7040000095A /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 2FFBBEB52AEAF7040000095A /* FirebaseFirestoreCombine-Community */; };
 		2FFBBEB82AEAF7040000095A /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2FFBBEB72AEAF7040000095A /* FirebaseFirestoreSwift */; };
@@ -37,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		2F44B8E22AEDE717001F54DF /* ActivityIndicatorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorUtil.swift; sourceTree = "<group>"; };
+		2F7A5B182B29FD1300FA8775 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2FCE164F2AEB00C2007B3999 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
 		2FCE16512AEB056E007B3999 /* ViewModelStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelStatus.swift; sourceTree = "<group>"; };
 		2FCE16582AEB1B3B007B3999 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		2FFBBE4C2AEAE0A00000095A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FFBBE992AEAE6930000095A /* PlayListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListViewModel.swift; sourceTree = "<group>"; };
 		2FFBBE9B2AEAEA8B0000095A /* PlayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListViewController.swift; sourceTree = "<group>"; };
-		2FFBBE9D2AEAF3600000095A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2FFBBEBE2AEAF98F0000095A /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		2FFBBEC12AEAFE570000095A /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,7 +117,7 @@
 				2FFBBE472AEAE0A00000095A /* Assets.xcassets */,
 				2FFBBE492AEAE0A00000095A /* LaunchScreen.storyboard */,
 				2FFBBE4C2AEAE0A00000095A /* Info.plist */,
-				2FFBBE9D2AEAF3600000095A /* GoogleService-Info.plist */,
+				2F7A5B182B29FD1300FA8775 /* GoogleService-Info.plist */,
 			);
 			path = MusicStreaming;
 			sourceTree = "<group>";
@@ -248,7 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FFBBE4B2AEAE0A00000095A /* LaunchScreen.storyboard in Resources */,
-				2FFBBE9E2AEAF3600000095A /* GoogleService-Info.plist in Resources */,
+				2F7A5B192B29FD1300FA8775 /* GoogleService-Info.plist in Resources */,
 				2FFBBE482AEAE0A00000095A /* Assets.xcassets in Resources */,
 				2FFBBE462AEAE09F0000095A /* Main.storyboard in Resources */,
 			);
@@ -430,6 +430,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MusicStreaming/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "M. Streaming";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -465,6 +466,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MusicStreaming/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "M. Streaming";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
