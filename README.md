@@ -29,7 +29,7 @@ The structure for playlist data in the database has the following format (as can
 }
 ```
 
-The fields **'image'** and **'resource'** refer to **Firebase Storage** URLs; the first one for downloading the image and the second one for playing the song.
+The fields **'image'** and **'resource'** refer to **Firebase Storage** URLs; the first one to download the image and the second one is to play the song.
 
 ### How to set up?
 
@@ -48,7 +48,7 @@ If you are using a free plan for the **Firebase** application, keep in mind that
 
 You need to add the **GoogleServices-Info.plist** file to your project, which is generated during the **Firebase** configuration stage, and also install the **Firebase SDK** in the project (via **CocoaPods**, **Swift Package Manager**, etc).
 
-Finally, this project uses Swift Package Manager for third-party libraries, and the following ones are used:
+Finally, this project uses Swift Package Manager for third-party libraries, the following ones are used:
 
 - **Firebase SDK**: https://swiftpackageindex.com/firebase/firebase-ios-sdk
 - **RxSwift**: https://swiftpackageindex.com/ReactiveX/RxSwift
