@@ -67,7 +67,7 @@ Here some important links that can help you:
 
 About the project:
 
-- Credits to activity indicator: https://github.com/erangaeb/dev-notes/blob/master/swift/ViewControllerUtils.swift
+- Activity indicator: https://github.com/erangaeb/dev-notes/blob/master/swift/ViewControllerUtils.swift
 - App logo comes from here: https://www.brandcrowd.com/
 - Soundwave image comes from here: https://es.vecteezy.com/arte-vectorial/7266126-vector-abstracto-con-ondas-sonoras-dinamicas-fondo-musica-espectro-neon-lines-digital-audio-studio-abstract-background
 
